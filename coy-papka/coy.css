@@ -73,6 +73,7 @@ header li {
     font-family: "Montserrat";
     font-weight: 600;
     margin-top: 0;
+    color: rgba(254, 249, 0, 1);
 }
 
 .fact-coy1 div p {
@@ -99,6 +100,7 @@ header li {
     font-family: "Montserrat";
     font-weight: 600;
     margin-top: 0;
+    color: rgba(254, 249, 0, 1);
 }
 
 .fact-coy2 div p {
@@ -126,16 +128,22 @@ header li {
     font-family: "Montserrat";
     font-weight: 600;
     margin-bottom: 3rem;
+    color: rgba(254, 249, 0, 1);
 }
 
 .track {
     margin-bottom: 3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 1rem;
+    border-left: 4px solid rgba(254, 249, 0, 1);
 }
 
 .track h3 {
     font-size: 2.4rem;
     font-family: "Montserrat";
     margin-bottom: 1rem;
+    color: rgba(254, 249, 0, 1);
 }
 
 audio {
@@ -152,6 +160,7 @@ audio {
     font-family: "Montserrat";
     font-weight: 600;
     margin-bottom: 3rem;
+    color: rgba(254, 249, 0, 1);
 }
 
 .relevance-info p {
@@ -168,6 +177,11 @@ audio {
     padding-left: 2rem;
 }
 
-.relevance-info li {
-    margin-bottom: 1rem;
+.relevance-info li::before {
+    content: "•";
+    color: rgba(254, 249, 0, 1);
+    font-size: 2.5rem;
+    position: absolute;
+    left: 0;
+    top: -0.3rem;
 }
